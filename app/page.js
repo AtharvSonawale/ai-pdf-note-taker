@@ -41,10 +41,10 @@ export default function Home() {
         className="max-w-3xl space-y-6"
       >
         <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-          Welcome to <span className="text-primary">Your App</span>
+          Welcome to <span className="text-primary">PDF GPT</span>
         </h1>
         <p className="text-muted-foreground text-lg sm:text-xl">
-          Build faster with modern tools, real-time collaboration, and production-grade performance.
+          Your ultimate pdf summarizer buddy
         </p>
 
         <div className="mt-8 flex justify-center gap-4">
