@@ -40,7 +40,7 @@ export default function LandingPage() {
   const handleRedirect = () => router.push("/dashboard");
 
   return (
-    <div className="min-h-screen scroll-smooth bg-white text-black">
+    <div className="min-h-screen scroll-smooth tracking-tighter bg-white text-black">
       {/* NAVBAR */}
       <header className="sticky top-0 z-50 border-b border-black/10 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
