@@ -40,7 +40,7 @@ export default function LandingPage() {
   const handleRedirect = () => router.push("/dashboard");
 
   return (
-    <div className="min-h-screen scroll-smooth tracking-tighter bg-white text-black">
+    <div className="min-h-screen scroll-smooth -tracking-wider bg-white text-black">
       {/* NAVBAR */}
       <header className="sticky top-0 z-50 border-b border-black/10 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
@@ -112,16 +112,16 @@ export default function LandingPage() {
       </header>
 
       {/* HERO */}
-      <section className="relative flex items-center justify-center px-6 py-28">
+      <section className="relative flex items-center justify-center px-6 py-14">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           className="mx-auto max-w-4xl text-center"
         >
-          <h1 className="text-5xl font-black leading-tight sm:text-6xl md:text-7xl">
+          <h1 className="text-5xl font-black -tracking-wide sm:text-6xl md:text-7xl">
             Turn Lengthy PDFs Into
-            <span className="text-yellow-500"> Instant Knowledge</span>
+            <span className="text-yellow-500 -tracking-wider"> Instant Knowledge</span>
           </h1>
 
           <p className="mt-6 text-lg text-black/70 sm:text-xl">
@@ -143,7 +143,7 @@ export default function LandingPage() {
       </section>
 
       {/* FEATURES */}
-      <section id="features" className="mx-auto max-w-7xl px-6 py-24">
+      <section id="features" className="mx-auto max-w-7xl px-6 py-14">
         <div className="text-center">
           <h2 className="text-4xl font-bold">Powerful Features</h2>
           <p className="mt-4 text-black/70">
